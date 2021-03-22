@@ -5,10 +5,11 @@ export default class Footer extends Component {
   render() {
     return (
       <div
-        class="container-fluid text-center text-md-left" id="footer" 
-        style={{ color: "black", backgroundColor: "wheat", paddingTop:"80px" }}
+        class="container-fluid text-center text-md-left"
+        id="Footer"
+        style={{ color: "black", backgroundColor: "wheat", paddingTop: "80px" }}
       >
-          <h1  style={{ textAlign: "center", fontStyle:"bold" }}>Contact us</h1>
+        <h1 style={{ textAlign: "center", fontStyle: "bold" }}>Contact us</h1>
         <div class="row">
           <div class="col-md-4 col-lg-3 mr-auto my-md-4 my-0 mt-4 mb-1">
             <h5
@@ -62,35 +63,39 @@ export default class Footer extends Component {
             </ul>
           </div>
           <hr class="clearfix w-100 d-md-none" />
-          <div class="col-md-2 col-lg-2 text-center mx-auto my-4">
+          <div class="col-md-4 col-lg-2 text-center mx-auto my-4">
             <h5
               class="font-weight-bold text-uppercase mb-4"
               style={{ color: "blue" }}
             >
               FOLLOW US
             </h5>
-            <a href="/"
+            <a
+              href="/"
               type="button"
               style={{ paddingRight: "15px" }}
               class="btn-floating btn-fb"
             >
               <i class="fab fa-facebook-f"></i>
             </a>
-            <a href="/"
+            <a
+              href="/"
               type="button"
-              style={{ paddingRight: "15px"}}
+              style={{ paddingRight: "15px" }}
               class="btn-floating btn-tw"
             >
               <i class="fab fa-twitter"></i>
             </a>
-            <a href="/"
+            <a
+              href="/"
               type="button"
               style={{ paddingRight: "15px" }}
               class="btn-floating btn-gplus"
             >
               <i class="fab fa-google-plus-g"></i>"
             </a>
-            <a href="/"
+            <a
+              href="/"
               type="button"
               style={{ paddingRight: "5px" }}
               class="btn-floating btn-dribbble"
@@ -103,8 +108,10 @@ export default class Footer extends Component {
           class="footer-copyright text-center py-3"
           style={{ color: "black" }}
         >
-          <p>© 2021 Copyright: <br />
-          Ruiru ltd</p>
+          <p>
+            © 2021 Copyright: <br />
+            Ruiru ltd
+          </p>
         </div>
       </div>
     );
