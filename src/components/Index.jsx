@@ -9,9 +9,10 @@ export default class Index extends Component {
   <div className="container">
     <div className="row">
       <div className="col-md-4" style={{fontWeight: 700, paddingTop: '10%'}}>
-        <p style={{borderRadius: 50, fontSize: 'large'}} target="_blank" href="/">
-          </p>
-        <small className="text" style={{fontSize: 'large'}} />
+        <a style={{borderRadius: '50%', borderWidth: 2, color: 'white', backgroundColor: 'black'}} className="btn btn-outline-dark" href="/">
+          Offers
+          </a>
+        <small className="btn btn-outline-dark" style={{fontSize: 'large',  borderWidth: 2, color: 'white',}} />
       </div>
       <div className="col-md-8">
         <div style={{float: 'right', marginTop: '10%', marginRight: '10%', fontWeight: 'bolder'}}>
