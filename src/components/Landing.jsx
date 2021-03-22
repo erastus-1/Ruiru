@@ -90,11 +90,11 @@ export default class Landing extends Component {
         </div>
       </div>
     </div>
-    <h1  style={{ textAlign: "center", fontStyle:"bold", paddingTop: "50px", paddingBottom: "50px" }}>Our Services</h1>
+    <h1  style={{ textAlign: "center", fontStyle:"bold", fontWeight:"bold", paddingTop: "50px", paddingBottom: "50px" }}>Our Services</h1>
     <div className="row">
           <div className="col-md-3">
             <img style={{ height: "200px", width: "200px" }} src={Ck1} alt="" />
-            <h3 className style={{ marginleft: "50px", fontweight: "bold" }}>
+            <h3 className style={{ marginleft: "50px", fontWeight: "bold" }}>
               WE COOK
             </h3>
           </div>
@@ -104,7 +104,7 @@ export default class Landing extends Component {
               src={Shop}
               alt=""
             />
-            <h3 className style={{ marginleft: "20px", fontweight: "bold" }}>
+            <h3 className style={{ marginleft: "20px", fontWeight: "bold" }}>
               YOU ORDER
             </h3>
           </div>
@@ -114,13 +114,13 @@ export default class Landing extends Component {
               src={Deliver}
               alt="delivery"
             />
-            <h3 className style={{ marginleft: "50px", fontweight: "bold" }}>
+            <h3 className style={{ marginleft: "50px", fontWeight: "bold" }}>
               WE DELIVER
             </h3>
           </div>
           <div className="col-md-3">
             <img style={{ height: "200px", width: "200px" }} src={En} alt="" />
-            <h3 className style={{ marginleft: "50px", fontweight: "bold" }}>
+            <h3 className style={{ marginleft: "50px", fontWeight: "bold" }}>
               YOU ENJOY
             </h3>
           </div>

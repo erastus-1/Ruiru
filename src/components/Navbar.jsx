@@ -5,7 +5,8 @@ import "../scss/css/styles.css";
 class Navbar extends React.Component {
     render() {
       return (
-        <nav className="navbar navbar-expand-lg navbar-dark bg-white border border-2 border-green rounded-2 fixed" style={{backgroundColor: 'aqua'}}>
+        
+        <nav className="navbar navbar-expand-lg navbar-dark bg-white border border-2 border-green rounded-2 fixed-top" style={{backgroundColor: 'aqua'}}>
   <div className="container-fluid">
     <ul className="nav navbar-nav navbar-right">
       <li>
@@ -22,6 +23,9 @@ class Navbar extends React.Component {
           <a href="/#/Footer" style={{color: 'black', fontSize: 'large', fontWeight: 400}}><i className="fas fa-envelope" style={{color: 'rgb(36, 214, 45)'}} /> Contact us</a>
         </li>
         <hr />
+        <li>
+          <a href="/#/Produts" style={{color: 'black', fontSize: 'large', fontWeight: 400}}><i className="fas fa-cart" style={{color: 'rgb(36, 214, 45)'}} /> Products</a>
+        </li>
         <hr />
         <li>
           <a href="/#/Landing" style={{color: 'black', fontSize: 'large', fontWeight: 400}}><i className="fas fa-person" style={{fontSize: 48, color: 'rgb(36, 214, 45)'}} /> About Us</a>

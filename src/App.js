@@ -3,6 +3,7 @@ import Home from "./components/Home";
 import Index from "./components/Index";
 import Landing from "./components/Landing";
 import Footer from "./components/Footer";
+import Products from "./components/Products";
 
 class App extends Component {
   render() {
@@ -10,6 +11,7 @@ class App extends Component {
       <div className="App">
       <Home />
       <Index />
+      <Products />
       <Landing />
       <Footer />
       </div>

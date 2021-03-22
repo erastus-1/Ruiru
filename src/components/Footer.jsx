@@ -5,7 +5,7 @@ export default class Footer extends Component {
   render() {
     return (
       <div
-        class="container text-center text-md-left" id="footer" 
+        class="container-fluid text-center text-md-left" id="footer" 
         style={{ color: "black", backgroundColor: "wheat", paddingTop:"80px" }}
       >
           <h1  style={{ textAlign: "center", fontStyle:"bold" }}>Contact us</h1>
