@@ -5,9 +5,10 @@ export default class Footer extends Component {
   render() {
     return (
       <div
-        class="container text-center text-md-left" id="footer"
-        style={{ color: "black", backgroundColor: "wheat" }}
+        class="container text-center text-md-left" id="footer" 
+        style={{ color: "black", backgroundColor: "wheat", paddingTop:"80px" }}
       >
+          <h1  style={{ textAlign: "center", fontStyle:"bold" }}>Contact us</h1>
         <div class="row">
           <div class="col-md-4 col-lg-3 mr-auto my-md-4 my-0 mt-4 mb-1">
             <h5
@@ -49,7 +50,7 @@ export default class Footer extends Component {
             <ul class="list-unstyled">
               <li>
                 <p>
-                  <i class="fas fa-envelope mr-3"></i> foodie@gmail.com
+                  <i class="fas fa-envelope mr-3"></i> ruiru@gmail.com
                 </p>
               </li>
 
@@ -68,42 +69,42 @@ export default class Footer extends Component {
             >
               FOLLOW US
             </h5>
-            <button
+            <a href="/"
               type="button"
               style={{ paddingRight: "15px" }}
               class="btn-floating btn-fb"
             >
               <i class="fab fa-facebook-f"></i>
-            </button>
-            <button
+            </a>
+            <a href="/"
               type="button"
-              style={{ paddingRight: "15px" }}
+              style={{ paddingRight: "15px"}}
               class="btn-floating btn-tw"
             >
               <i class="fab fa-twitter"></i>
-            </button>
-            <button
+            </a>
+            <a href="/"
               type="button"
               style={{ paddingRight: "15px" }}
               class="btn-floating btn-gplus"
             >
               <i class="fab fa-google-plus-g"></i>"
-            </button>
-            <button
+            </a>
+            <a href="/"
               type="button"
               style={{ paddingRight: "5px" }}
               class="btn-floating btn-dribbble"
             >
               <i class="fab fa-dribbble"></i>
-            </button>
+            </a>
           </div>
         </div>
         <div
           class="footer-copyright text-center py-3"
           style={{ color: "black" }}
         >
-          <p>© 2021 Copyright: </p>
-          <p> Ruiru ltd</p>
+          <p>© 2021 Copyright: <br />
+          Ruiru ltd</p>
         </div>
       </div>
     );

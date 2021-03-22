@@ -1,3 +1,7 @@
+body {
+	font-family: 'Architects Daughter', cursive;
+}
+
 .card {
 	border-radius: 2px;
 	background: #fff;
@@ -12,10 +16,6 @@
 	box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
 }
 
-.card h3 {
-	font-weight: 600;
-}
-
 .card img {
 	position: absolute;
 	top: 20px;
@@ -26,7 +26,7 @@
 .card {
 	background-repeat: no-repeat;
 	background-size: 300px;
-	height: 300px;
+	height: 50px;
 }
 
 @media(max-width: 990px) {
@@ -48,4 +48,30 @@
 .cardd:hover {
 	transform: scale(1.01);
 	box-shadow: 0 10px 20px rgb(65, 64, 64), 0 4px 8px rgba(0, 0, 0, .06);
+}
+.card-1 {
+	background-repeat: repeat;
+	background-position: right;
+	background-size: 100px;
+	height: 100px;
+}
+
+.card-2 {
+	background-repeat: repeat;
+	background-position: right;
+	background-size: 100px;
+	height: 100px;
+}
+
+.card-3 {
+	background-repeat: repeat;
+	background-position: right;
+	background-size: 100px;
+	height: 100px;
+}
+.card-4 {
+	background-repeat: repeat;
+	background-position: right;
+	background-size: 100px;
+	height: 100px;
 }
