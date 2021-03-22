@@ -9,7 +9,7 @@ export default class Sidebar extends Component {
     render() {
       return (
 
-  <div class="container" style={{ marginBottom: 20 }}>
+  <div class="container" id="category" style={{ marginBottom: 20 }}>
     <h1 style={{ fontWeight: "bold", textAlign: "center" }}>
       Select your Food From the Following Categories.
     </h1>

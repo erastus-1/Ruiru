@@ -5,7 +5,7 @@ export default class Footer extends Component {
   render() {
     return (
       <div
-        class="container text-center text-md-left"
+        class="container text-center text-md-left" id="footer"
         style={{ color: "black", backgroundColor: "wheat" }}
       >
         <div class="row">
