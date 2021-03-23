@@ -26,7 +26,7 @@ export default class Landing extends Component {
               className="thumbnail"
               src={C1}
               alt=""
-              style={{ height: "200px", width: "350px" }}
+              style={{ height: "300px", width: "350px" }}
             />
             <div className="box-element product" style={{ height: 70 }}>
               <h6>
@@ -54,7 +54,7 @@ export default class Landing extends Component {
               className="thumbnail"
               src={F1}
               alt=""
-              style={{ height: "200px", width: "350px" }}
+              style={{ height: "300px", width: "350px" }}
             />
             <div className="box-element product" style={{ height: 70 }}>
               <h6>
@@ -83,7 +83,7 @@ export default class Landing extends Component {
               className="thumbnail"
               src={Be1}
               alt=""
-              style={{ height: "200px", width: "350px" }}
+              style={{ height: "300px", width: "350px" }}
             />
             <div className="box-element product" style={{ height: 70 }}>
               <h6>
@@ -112,7 +112,7 @@ export default class Landing extends Component {
               className="thumbnail"
               src={Cookie}
               alt=""
-              style={{ height: "200px", width: "350px" }}
+              style={{ height: "300px", width: "350px" }}
             />
             <div className="box-element product" style={{ height: 70 }}>
               <h6>
@@ -141,7 +141,7 @@ export default class Landing extends Component {
               className="thumbnail"
               src={B1}
               alt=""
-              style={{ height: "200px", width: "350px" }}
+              style={{ height: "300px", width: "350px" }}
             />
             <div className="box-element product" style={{ height: 70 }}>
               <h6>
@@ -170,7 +170,7 @@ export default class Landing extends Component {
               className="thumbnail"
               src={bla1}
               alt=""
-              style={{ height: "200px", width: "350px" }}
+              style={{ height: "300px", width: "350px" }}
             />
             <div className="box-element product" style={{ height: 70 }}>
               <h6>
@@ -198,7 +198,7 @@ export default class Landing extends Component {
               className="thumbnail"
               src={Sa1}
               alt=""
-              style={{ height: "200px", width: "350px" }}
+              style={{ height: "300px", width: "350px" }}
             />
             <div className="box-element product" style={{ height: 70 }}>
               <h6>
@@ -227,7 +227,7 @@ export default class Landing extends Component {
               className="thumbnail"
               src={P1}
               alt=""
-              style={{ height: "200px", width: "350px" }}
+              style={{ height: "300px", width: "350px" }}
             />
             <div className="box-element product" style={{ height: 70 }}>
               <h6>
@@ -256,7 +256,7 @@ export default class Landing extends Component {
               className="thumbnail"
               src={S1}
               alt=""
-              style={{ height: "200px", width: "350px" }}
+              style={{ height: "300px", width: "350px" }}
             />
             <div className="box-element product" style={{ height: 70 }}>
               <h6>
